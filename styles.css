@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+}
+
+#grid-container{
+    display: grid;
+    margin: auto;
+    justify-content: stretch;
+    grid-template-columns: repeat(32, 1fr);
+    grid-template-rows: repeat(32, 1fr);
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+    border-color: black;
+    border-width: thick;
+}
+
+.etch-a-sketch-grid{
+    border-color: black;
+    border-width: thick;
+    background-color: grey;
+}
+
+#reset {
+    margin-bottom: 25px;
+}
+
+#buttons-container{
+    text-align: center;
+}
